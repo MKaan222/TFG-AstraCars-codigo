@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455ac7483ce3c1a42a25780e24659935, type: 3}
+  m_Name: B-StartRoad
+  m_EditorClassIdentifier: 
+  levelPieces:
+  - {fileID: 8044862250684281082, guid: 10858689656f5c0489b125da306f345c, type: 3}
+  piezeSize: {x: 48, y: 48}
+  entry: 1
+  exit: 0

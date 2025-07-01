@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455ac7483ce3c1a42a25780e24659935, type: 3}
+  m_Name: B-South-North
+  m_EditorClassIdentifier: 
+  levelPieces:
+  - {fileID: 2733339260014064381, guid: 8791eba158a48eb4487e3a8b4e574d22, type: 3}
+  - {fileID: 2733339260014064381, guid: 30fe5d3a67853944a94841e024dee8ac, type: 3}
+  piezeSize: {x: 48, y: 48}
+  entry: 1
+  exit: 0
