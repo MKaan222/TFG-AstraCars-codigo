@@ -355,9 +355,9 @@ public class GameManager : MonoBehaviour
                 }
                 else if (gameMode is ReachEndMode)
                 {
-                    countdownInstance.StartCountdown(240f);
+                    countdownInstance.StartCountdown(360f);
                 }
-                SetCommonConfig(5f, 300f, 20, 20, 2, 5f, 0f, 5f);
+                SetCommonConfig(5f, 300f, 20, 20, 2, 5f, 0f, 6f);
                 break;
 
             case "Normal":
@@ -368,9 +368,9 @@ public class GameManager : MonoBehaviour
                 }
                 else if (gameMode is ReachEndMode reachEndMode)
                 {
-                    countdownInstance.StartCountdown(180f);
+                    countdownInstance.StartCountdown(300f);
                 }
-                SetCommonConfig(10f, 250f, 15, 25, 4, 10f, 5000f, 7f);
+                SetCommonConfig(10f, 250f, 15, 25, 4, 10f, 5000f, 8f);
 
 
                 break;
@@ -382,9 +382,9 @@ public class GameManager : MonoBehaviour
                 }
                 else if (gameMode is ReachEndMode reachEndMode)
                 {
-                    countdownInstance.StartCountdown(120f);
+                    countdownInstance.StartCountdown(240f);
                 }
-                SetCommonConfig(15f, 200f, 10, 30, 7, 15f, 10000f, 10f);
+                SetCommonConfig(15f, 200f, 10, 30, 7, 15f, 8000f, 15f);
                 break;
 
             case "Personalizada":
